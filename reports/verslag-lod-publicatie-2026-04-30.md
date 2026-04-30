@@ -49,7 +49,8 @@ WHERE {
 }
 ```
 
-De query selecteert alle `imjv:ExploitatieStaat`-instanties met een `rdfs:seeAlso`-link naar `data.kbodata.be` en transformeert die naar de nieuwe VKBO-namespace (`https://data.vlaanderen.be/id/vestiging/`). Dit leverde **3.881 unieke vestiging-URI's** op, opgeslagen in `sources/vestigingen.csv`.
+De query selecteert alle `imjv:ExploitatieStaat`-instanties met een `rdfs:seeAlso`-link naar `data.kbodata.be` en transformeert die naar de nieuwe VKBO-namespace (`https://data.vlaanderen.be/id/vestiging/`). 
+Een steekproef van **3.881 unieke vestiging-URI's** werd opgeslagen in `sources/vestigingen.csv`.
 
 ---
 
